@@ -17,7 +17,6 @@ public class ParellelExample {
     public void t2(){
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.edso.in/");
-        driver.close();
     }
 
     @Test
@@ -32,5 +31,6 @@ public class ParellelExample {
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.rediffmail.com/");
         driver.close();
+		System.out.println("Hello Alll");
     }
 }
