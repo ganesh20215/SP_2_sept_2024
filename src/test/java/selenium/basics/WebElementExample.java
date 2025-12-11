@@ -15,7 +15,6 @@ public class WebElementExample {
         //element.sendKeys("Ganesh Jadhav");
 
         //clear()
-        //Thread.sleep(3000);
         //element.clear();
 
         //submit()

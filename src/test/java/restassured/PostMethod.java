@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
 
 public class PostMethod {
 
+    //This is an changes for git
     @Test
     public void verifyPostMethod(){
         RestAssured.baseURI = "https://reqres.in/api/";
