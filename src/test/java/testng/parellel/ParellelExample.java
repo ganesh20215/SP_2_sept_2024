@@ -10,7 +10,6 @@ public class ParellelExample {
     public void t1() {
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.saucedemo.com/");
-        driver.close();
     }
 
     @Test
@@ -34,3 +33,4 @@ public class ParellelExample {
         System.out.println("Hello Alll");
     }
 }
+
